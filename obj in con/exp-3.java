@@ -1,13 +1,13 @@
-class Demo {
-    static int i=0;
-    Demo(){
-        System.out.println("i am in cont of class "+(i++));
-        Demo y=new Demo();
-    }
-    public static void main(String[] args) {
-        Demo x=new Demo();
-    }
-}
+class Demo {//start of Demo class
+    static int i=0;//to know how many times construtr is invoking
+    Demo(){//start of constructor
+        System.out.println("i am in cont of class "+(i++));//promt
+        Demo y=new Demo();//new obj for Demo class 
+    }//end of constructor
+    public static void main(String[] args) {//start of main method
+        Demo x=new Demo();//creating new obj for Demo
+    }//end of main method
+};//end of class
 /*Exception in thread "main" java.lang.StackOverflowError
         at java.base/java.nio.Buffer.<init>(Buffer.java:245)
         at java.base/java.nio.CharBuffer.<init>(CharBuffer.java:288)
