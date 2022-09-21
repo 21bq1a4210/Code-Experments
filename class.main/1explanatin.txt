@@ -1,0 +1,12 @@
+i have tried a simle experment in java.
+
+i writen a class named Demo and also it consists of a main method along with a constructor.
+
+next in main method i created an object for Demo.
+
+next i invoke main method using class name Demo cuz which is a static method.
+
+in between the obj creation and invoking a main method i inserted a static int varable (i++)
+
+i found that the out put is very intersting.
+go check copy the sourse code and find what will happen 
