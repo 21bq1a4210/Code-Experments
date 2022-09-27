@@ -30,14 +30,14 @@ class AbstractDemo extends Abstract{//start of inherated abstracted class
         System.out.println("i am in method1 of abstract class");//promt
     }//end of method1
 }//end of inherated abstracted class
-class Demo {
-    public static void main(String[] args) {
-        Abstract ab=new AbstractDemo();
-        ab.method1();
-        ab.method2();
-        System.out.println("");
-        Interface in=new IFDemo();
-        in.method1();
-        in.method2();
+class Demo {//start of the class
+    public static void main(String[] args) {//start of the method
+        Abstract ab=new AbstractDemo();//creating a object
+        ab.method1();//calling method of Abstract class
+        ab.method2();//calling method of Abstract class
+        System.out.println("");//promt
+        Interface in=new IFDemo();//creating an obj to Interface with IFDemo as constructor
+        in.method1();//calling method of iterface
+        in.method2();//calling method of iterface
     }
 }
